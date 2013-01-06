@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE rezept SYSTEM "../src/rezepte.dtd">
-<?xml-stylesheet href="../src/style.xsl" type="text/xsl"?>
-<?xml-stylesheet href="../src/style.css" type="text/css"?>
-<?thomas-michel document-status="draft" version="1.2"?>
-<!-- $Id$ -->
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+
+
+<!-- $Id$ < ?thomas-michel document-status="draft" version="1.2"?> -->
 <!-- =================================================== -->
 <!-- |NudelnMitTomatensosse.xml|  -  TODO description  | -->
 <!--                                                     -->

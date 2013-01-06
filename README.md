@@ -34,3 +34,8 @@ in einem zukünftigen Projekt
 [rezept-dsl](https://github.com/FunThomas424242/rezept-dsl) auf der Basis 
 von **Domain Spezifischen Sprachen** zu realisieren. 
 
+Lizenz
+------
+Die Quellen stehen unter dem Schutz der 
+[GNU Lesser General Public License v2.1](COPYING.lesser) oder folgender Versionen. 
+

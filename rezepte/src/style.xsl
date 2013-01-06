@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?thomas-michel document-status="draft" version="1.5"?>
+<?thomas-michel document-status="draft" version="2.0"?>
 <!-- $Id$ -->
 <!-- =================================================== -->
 <!-- |style.xsl         |         -  TODO description  | -->

@@ -22,7 +22,8 @@
 
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:fo="http://www.w3.org/TR/WD-xsl/FO">
+	xmlns:fo="http://www.w3.org/TR/WD-xsl/FO"
+	>
 	
 		
 	<xsl:template match="/">
@@ -32,8 +33,8 @@
 	<xsl:template match="rezepte">
 		<HTML>
 		<HEAD>
-			<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252"/>
-			<TITLE>
+			<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8"/>
+			<title>
 				<xsl:choose>
 					<xsl:when test="@titel">
 						<xsl:value-of select="@titel"/>
@@ -42,7 +43,8 @@
 						<xsl:value-of select="rezept[0]/titel"/>
 					</xsl:otherwise>
 				</xsl:choose>
-			</TITLE>
+			</title>
+			<link rel="stylesheet" type="text/css" href="src/style.css" />
 			<META NAME="GENERATOR" CONTENT="style.xsl  (Win32)"/>
 			<META NAME="AUTHOR" CONTENT="Thomas Schubert"/>
 			<META NAME="CREATED" CONTENT="20060918;10562721"/>
@@ -135,8 +137,7 @@
 			</xsl:otherwise>
 		</xsl:choose>
 		übernommen
-		aus <strong><xsl:value-of select="@name"/></strong>
-	
+		aus <strong class="quelle"><xsl:value-of select="@name"/></strong>
 	</xsl:template>
 	
 	<xsl:template match="zutaten">

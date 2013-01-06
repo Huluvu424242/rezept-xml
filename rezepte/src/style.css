@@ -1,12 +1,16 @@
-<?thomas-michel document-status="draft" version="2.0"?>
-/**
+/** 
+ *<?thomas-michel document-status="draft" version="2.0"?>
  * Eigene Erweiterungen
  */
+
  
 /* simple Quellenangabe*/
+body { background-color:#FFFFCC }
+* { color:blue; }
+a:link  { color:#1E90FF; }
+a:visited{ color:#483D8B; }
 .quelle{
 	 font-weight 		:	bold;
-	 color:green;
-	 
+	 color:green; 
 }
 

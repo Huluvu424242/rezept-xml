@@ -1,0 +1,70 @@
+<?thomas-michel document-status="draft" version="1.0"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |rezepte.dtd       |         -  TODO description  | -->
+<!--                                                     -->
+<!-- datum            : | 07.09.2008|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+
+<!ELEMENT rezepte (rezept)+>
+<!ATTLIST rezepte titel CDATA #IMPLIED>
+
+<!ELEMENT rezept  ( titel, untertitel?, datum, (ungetestet | test), verwertung?
+				  , produkte?, zutaten, beilagen?, zubereitung, tipps?, quelle?)>
+
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT untertitel (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT ungetestet EMPTY>
+<!ELEMENT test (bemerkung)+>
+<!ELEMENT bemerkung (#PCDATA)>
+
+<!ELEMENT zutaten (zutat)+>
+
+<!ELEMENT zutat EMPTY>
+<!ATTLIST zutat name CDATA #REQUIRED>
+<!ATTLIST zutat menge CDATA #REQUIRED>
+<!ATTLIST zutat einheit CDATA #IMPLIED>
+<!ATTLIST zutat code ID	#REQUIRED>
+
+<!ELEMENT beilagen (beilage)+>
+<!ELEMENT beilage (#PCDATA)>
+
+<!ELEMENT verwertung (rest)+>
+<!ELEMENT rest EMPTY>
+<!ATTLIST rest name CDATA #REQUIRED>
+
+<!ELEMENT zubereitung (aktion)+>
+<!ELEMENT aktion (#PCDATA|zutatref)*>
+
+<!ELEMENT zutatref (#PCDATA) >
+<!ATTLIST zutatref code IDREF #REQUIRED>
+
+<!ELEMENT produkte (produkt)+>
+
+<!ELEMENT produkt EMPTY>
+<!ATTLIST produkt beschreibung CDATA #REQUIRED>
+<!ATTLIST produkt ean CDATA #IMPLIED>
+<!ATTLIST produkt uba CDATA #IMPLIED>
+<!ATTLIST produkt preis CDATA #IMPLIED>
+<!ATTLIST produkt haendler CDATA #IMPLIED>
+<!ATTLIST produkt hersteller CDATA #IMPLIED>
+
+<!ELEMENT tipps (tipp)+>
+<!ELEMENT tipp (#PCDATA)>
+
+<!ELEMENT quelle EMPTY>
+<!ATTLIST quelle name CDATA #REQUIRED>
+<!ATTLIST quelle modifiziert CDATA #FIXED "modifiziert">

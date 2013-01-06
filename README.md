@@ -1,4 +1,4 @@
-xrezept
-=======
+Rezept XML
+==========
 
 Rezept XML - Vorlagen und Stylesheets um Rezepte in XML zu verfassen.

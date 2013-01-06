@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?thomas-michel document-status="draft" version="1.5"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |style.xsl         |         -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 24.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : | funthomas424242@gmail.com    | -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
 
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:fo="http://www.w3.org/TR/WD-xsl/FO">
 	
 		
 	<xsl:template match="/">
@@ -163,7 +184,7 @@
 		</ul>	
 	</xsl:template>
 	
-	<!--
+	<!-- 
 	<xsl:template match="./text()">
 		<xsl:value-of select="."/>
 	</xsl:template>
@@ -177,5 +198,6 @@
 			<xsl:value-of select="."/>
 		</a>
 	</xsl:template>
+
 	
 </xsl:stylesheet>

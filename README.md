@@ -37,5 +37,6 @@ von **Domain Spezifischen Sprachen** zu realisieren.
 Lizenz
 ------
 Die Quellen stehen unter dem Schutz der 
-[GNU Lesser General Public License v2.1](COPYING.lesser) oder folgender Versionen. 
+[GNU Lesser General Public License v2.1]
+(http://www.gnu.de/documents/lgpl-2.1.de.html) oder folgender Versionen. 
 

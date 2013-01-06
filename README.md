@@ -12,3 +12,4 @@ Kochrezepte auf meiner Homepage an. Aktuell habe ich die Templates ein bisl
 Jetzt funktionieren sie mit IE und Mozilla. Chrome mag sie noch nicht :(
 
 Das einzige Rezept soll nur ein Beispiel darstellen wie die Templates funktionieren.
+[NudelnMitTomatensosse.xml](http://funthomas424242.github.com/rezept-xml/rezepte/NudelnMitTomatensosse.xml)

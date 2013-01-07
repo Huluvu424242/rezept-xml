@@ -58,6 +58,7 @@
 	</xsl:template>
 	
 	<xsl:template match="rezept">
+		<img src="src/rezeptxml-64x64.png" alt="produktlogo" />
 		<h1> <xsl:value-of select="titel"/></h1>
 		<xsl:apply-templates select="untertitel"/>		
 		<xsl:apply-templates select="quelle"/>

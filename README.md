@@ -1,5 +1,5 @@
-Rezept XML
-==========
+![logo](rezepte/src/rezeptxml-64x64.png "Optional title") Rezept XML
+====================================================================
 
 Projektziele
 ------------

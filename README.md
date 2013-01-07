@@ -1,4 +1,4 @@
-![logo](rezeptxml-64x64.png "Rezept XML") Rezept XML
+![logo]((http://funthomas424242.github.com/rezept-xml/rezepte/src/rezeptxml-64x64.png "Rezept XML") Rezept XML
 ====================================================================
 
 Projektziele

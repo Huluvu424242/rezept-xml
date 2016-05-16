@@ -17,7 +17,7 @@ Chrome hat lokal zwar Probleme aber remote funktioniert es :)
 Beispiel
 --------
 Das einzige Rezept soll nur ein Beispiel darstellen wie die Templates funktionieren.
-[NudelnMitTomatensosse.xml](http://funthomas424242.github.com/rezept-xml/rezepte/NudelnMitTomatensosse.xml)
+[NudelnMitTomatensosse.xml](rezepte/NudelnMitTomatensosse.xml)
 
 Projektstatus
 -------------

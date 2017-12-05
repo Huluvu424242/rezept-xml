@@ -1,0 +1,111 @@
+<?thomas-michel document-status="draft" version="1.2"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
+<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../../style.css" type="text/css"?>
+	<!-- $Id$ -->
+	<!-- =================================================== -->
+	<!-- |KomarKekse.xml|  -  TODO description  | -->
+	<!--                                                     -->
+	<!-- begin            : | 21.09.2006|                  | -->
+	<!-- copyright        : | (C) 2006 by tmichel          | -->
+	<!-- email            : |development@thomas-michel.info| -->
+	<!-- =================================================== -->
+	<!--
+		******************************************************************************
+		* * * This document is a free paper; you can redistribute it and/or
+		modify * * it under the terms of the GNU Free Documentation License as
+		published * * by the Free Software Foundation; either version 1.2 of
+		the License, or * * (at your option) any later version. * * *
+		******************************************************************************
+	-->
+	<!--
+		standalone="no" gefordert nach XML in der Praxis S.400 (ISBN
+		3-8273-1636-7) bei : + Elementtypen, deren Inhalt weitere Elemente
+		enthält, falls Leerraum (WhiteSpace) direkt innerhalb einer Instanz
+		solcher Typen erscheint :
+	-->
+<rezepte>
+	<rezept>
+		<titel>Komar-Kekse</titel>
+		<datum>23.12.2008</datum>
+		<test>
+			<bemerkung>
+				Relativ einfach, verdammt süß dafür aber weich
+			</bemerkung>
+		</test>
+		<produkte>
+			<produkt beschreibung="1 Packung Butter" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung braunen Zucker" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung Mehl z.B. Typ 405" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="3 Eier" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Röhrchen Vanillearoma" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung gemahlenen Zimt" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung Salz" haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung granulierten Zucker z.B. Hagelzucker"
+				haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Glas Erdbeermarmelade" haendler="Marktkauf">
+			</produkt>
+		</produkte>
+		<zutaten>
+			<zutat name="Mehl" menge="250" einheit="g" code="mehl" />
+			<zutat name="Butter" menge="125" einheit="g" code="butter" />
+			<zutat name="braunen Zucker" menge="125" einheit="g" code="zucker" />
+			<zutat name="Eier" menge="3" code="eier" />
+			<zutat name="Vanillearoma" menge="1/2" einheit="TL" code="vanillearoma" />
+			<zutat name="Salz" menge="1/4" einheit="TL" code="salz" />
+			<zutat name="Zimt" menge="1" einheit="TL" code="zimt" />
+			<zutat name="granulierten Zucker" menge="1" einheit="Suppentasse"
+				code="hagelzucker" />
+		</zutaten>
+		<zubereitung>
+			<aktion>Butter im Topf auf kleinster Stufe zergehen lassen und
+				sofort wieder runter vom Herd.
+			</aktion>
+			<aktion>In die Butter den braunen Zucker eingeben und mittels
+				Schneebesen schaumig schlagen.</aktion>
+			<aktion>Zu dem Gemisch wird 1 Ei, das Mehl, die Vanille, der Zimt
+				und das Salz dazugegeben.</aktion>
+			<aktion>Alles schön verrühren - um so kälter es wird um so eher
+				sieht es wie brauner Rührteig aus.</aktion>
+			<aktion>Irgendwann sollte der Teig nicht mehr so kleben und
+				sich eine Kugel formen lassen - ich habe hier mit Mehl nachgeholfen
+				damit er nicht mehr so klebte.</aktion>
+			<aktion>Ist es gelungen den Teig zu einer Kugel zu formen, dann
+				kommt dieser 15 Minuten in den Kühlschrank.</aktion>
+			<aktion>In der Zeit des Kühlens kann der Herd auf 200 Grad
+				vorgeheizt werden.</aktion>
+			<aktion>Das restliche Ei schaumig schlagen und den granulierten
+				Zucker in eine Suppentasse oder einen Teller geben.</aktion>
+			<aktion>Nachdem der Teig 15 Minuten gekühlt hat (er sollte
+				jetzt nicht mehr kleben) Stückchen in Keksgröße entnehmen und als
+				Ball rollen, im Ei und dann im Zucker wälzen und auf ein gefettetes
+				Blech geben.</aktion>
+			<aktion>Auf dem Blech den Ball so eindrücken, dass eine Kuhle
+				entsteht. In diese wird die Marmelade gegeben.</aktion>
+			<aktion>Die Kekse etwa 10 Minuten backen.</aktion>
+		</zubereitung>
+		<tipps>
+			<tipp>Aus meiner Sicht kann es nicht schaden deutlich mehr Mehl zu
+				nehmen oder weniger Butter, aber ich habe es noch nicht probiert wie
+				sich das auswirkt. Ich würde erwarten, dass die Kekse härter werden
+				und nicht mehr so süss sind.</tipp>
+			<tipp>Die Glasur mit dem Ei, dem granulierten Zucker und der
+				Marmelade würde ich weglassen. Stattdessen hilft vielleicht
+				Kokosraspel
+				aber ob das dann schmeckt muss man testen.</tipp>
+			<tipp>Nach dem Backen die Kekse erst kühlen lassen, da sie noch
+				nicht fest sind. Stabilität erlangen die Kekse erst beim Kühlen</tipp>
+		</tipps>
+		<quelle
+			name="dem offiziellen Star Trek Kochbuch, ISBN: 3-89365-796-7, S. 269-270" />
+	</rezept>
+</rezepte>

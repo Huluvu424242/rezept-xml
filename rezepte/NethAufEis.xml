@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?thomas-michel document-status="draft" version="1.3"?>
+<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
+<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../../style.css" type="text/css"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |NethAufEis.xml    |  -  TODO description         | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+	******************************************************************************
+	*                                                                            *
+	*   This document is a free paper; you can redistribute it and/or modify     *
+	*   it under the terms of the GNU Free Documentation License as published    *
+	*   by the Free Software Foundation; either version 1.2 of the License, or   *
+	*   (at your option) any later version.                                      *
+	*                                                                            *
+	******************************************************************************
+-->
+<!-- 
+	standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+	:
+	+ Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+	direkt innerhalb einer Instanz solcher Typen erscheint
+	:
+-->
+<rezepte>
+
+	<rezept>
+		<titel>Neth auf Eis</titel>
+		<datum>10.4.2007</datum>
+		<ungetestet />
+		<produkte>
+			<produkt beschreibung="2 Dosen Mangostücken" />
+			<produkt beschreibung="1 Dose Jogurt" />
+			<produkt beschreibung="1 Glas Bienenhonig" />
+			<produkt beschreibung="1 Packung Milch" />
+		</produkte>
+		<zutaten>
+			<zutat name="Mango" menge="1" code="mango" />
+			<zutat name="Jogurt" menge="500" einheit="ml" code="jogurt" />
+			<zutat name="Milch" menge="0,5" einheit="Liter"
+				code="milch" />
+			<zutat name="Honig" menge="2" einheit="Eßlöffel"
+				code="honig" />
+		</zutaten>
+		<zubereitung>
+			<aktion>
+				Die Mangostücken, den Jogurt, die Milch und den Honig in
+				ein Rührgefäß geben.
+			</aktion>
+			<aktion>Mit dem Mixer alles vermischen.</aktion>
+			<aktion>Kühl servieren</aktion>
+		</zubereitung>
+		<tipps>
+			<tipp>
+				Durch Zugabe von 1 Teelöffel Ingwer, 1 Teelöffel
+				Cardamon, einen halben Teelöffel Kreuzkümmel und einem
+				Teelöffel Fenchel (alles gemahlen) kann eine Variante
+				mit würzigem Geschmack erstellt werden.
+			</tipp>
+
+		</tipps>
+		<quelle
+			name="Das offizielle Star Trek Kochbuch, ISBN=3-89365-796-7"
+			modifiziert="modifiziert" />
+	</rezept>
+</rezepte>

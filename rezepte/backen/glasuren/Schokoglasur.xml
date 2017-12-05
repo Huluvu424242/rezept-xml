@@ -1,0 +1,70 @@
+<?thomas-michel document-status="draft" version="1.2"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
+<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../../style.css" type="text/css"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |Schokoglasur.xml|  -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+<!-- 
+ standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+ :
+ + Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+   direkt innerhalb einer Instanz solcher Typen erscheint
+ :
+ -->
+<rezepte>
+	<rezept>
+		<titel>Schokoglasur</titel>
+		<datum>16.06.2007</datum>
+		<test>
+			<bemerkung>
+			Geht schnell - ist aber sehr süss.
+			</bemerkung>
+		</test>
+		<produkte>
+			<produkt beschreibung="1 Packung Puderzucker"
+					 haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung Kakao"
+					 haendler="Marktkauf">
+			</produkt>
+		</produkte>
+		<zutaten>
+			<zutat name="Puderzucker"
+				   menge="150"
+				   einheit="g"
+				   code="zucker"/> 
+			<zutat name="Kakao"
+				   menge="2" 
+				   einheit="gehäufte EL"
+				   code="kakao"/>
+			<zutat name="Wasser" 
+					menge="2-3" 
+					einheit="EL"
+					code="wasser"/>
+		</zutaten>
+		<zubereitung>
+			<aktion>Puderzucker und Kakao mischen
+:			</aktion>		
+			<aktion>Die Mischung mit heissem Wasser glatt rühren</aktion>
+			<aktion>Mit einem Messer die Glasur auf dem Kuchen verteilen</aktion>
+		</zubereitung>
+		<quelle name="Packung für Gloria Schoko Kuchen"/>
+	</rezept>
+</rezepte>

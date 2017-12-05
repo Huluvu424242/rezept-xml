@@ -1,0 +1,112 @@
+<?thomas-michel document-status="draft" version="1.2"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
+<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../../style.css" type="text/css"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |BahmiGoreng.xml   |  -  TODO description         | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+<!-- 
+ standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+ :
+ + Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+   direkt innerhalb einer Instanz solcher Typen erscheint
+ :
+ -->
+
+
+
+<rezepte>
+	<rezept>
+		<titel>BAHMI GORENG</titel>
+		<untertitel>Gebackene Nudeln mit Fleisch</untertitel>
+		<datum>24.09.2006</datum>
+		<ungetestet/>
+		<produkte>
+			<produkt beschreibung="Sajoeran Kering (gewürztes Trockengemüse für Bahmi Goreng)" 
+			         hersteller="Wan Kwai"/>
+		</produkte>
+		<zutaten>
+			<zutat name="Wan Kwai Mie-Nudeln"
+				   menge="400"
+				   einheit="g"
+				   code="nudeln"/> 
+			<zutat name="Hühner- oder Schweinefleich"
+				   menge="400" 
+				   einheit="g"
+				   code="fleisch"/>
+			<zutat name="gekochten Schinken" 
+					menge="100" 
+					einheit="g"
+					code="schinken"/>
+			<zutat name="Porree" 
+					menge="1" 
+					einheit="Stange"
+					code="porree"/>		
+			<zutat name="Zwiebeln" 
+					menge="2"
+					code="zwiebeln"/>	
+			<zutat name="rote Paprikatschote" 
+					menge="1"
+					code="paprika"/>		
+			<zutat name="Sellerie" 
+					menge="75" 
+					einheit="g"
+					code="sellerie"/>																			   
+		</zutaten>
+		<zubereitung>
+			<aktion>
+			<zutatref code="nudeln" >Mie-Nudeln</zutatref>
+			nach Packungsanweisung kochen.
+			</aktion>
+			<aktion>
+			In der Zwischenzeit das <zutatref code="fleisch">
+			Fleisch</zutatref> und den 
+			<zutatref code="schinken">Schinken</zutatref>
+			in Würfel, <zutatref code="porree">Porree</zutatref>
+			und <zutatref code="zwiebeln">Zwiebeln</zutatref> in Ringe, 
+			<zutatref code="paprika">Paprika</zutatref>
+			und <zutatref code="sellerie">Sellerie</zutatref>
+			in Streifen scheiden.
+			</aktion> 
+			<aktion>
+			Erbsen und Mungbohnenkeime abtropfen lassen.
+			</aktion>
+			<aktion>
+			Öl in einer Pfanne oder im Wok erhitzen, das Fleisch kurz darin 
+			anbraten, nach und nach Schinken, Zwiebeln, Porree, Sellerie und Paprika
+			zugeben und mitbraten.
+			</aktion>
+			<aktion>
+			Zum Schluß Erbsen und Mungbohnenkeime unterrühren. Das Gemüse soll
+			knackig bleiben.
+			</aktion>
+			<aktion>
+			Mit Knoflookpoeder, Djahé, Ketjap und Sambal würzen, die fertig gekochten
+			Nudeln untermischen und alles noch 5 Minuten braten. Evtl. mit Salz, 
+			Ketjap und Sambal abschmecken.
+			</aktion>
+			<aktion>
+			Als Beilage gebratene Eier, gebackenen Kroepoek und Atjar Tjampoer 
+			(Gemüsesalat) reichen.
+			</aktion>
+		</zubereitung>
+
+		<quelle name="Wan Kwai, Ostasiatische Küche - Essen und Wohlbefinden sind eins, Seite 18"/>
+	</rezept>
+</rezepte>

@@ -1,0 +1,172 @@
+<?thomas-michel document-status="draft" version="1.2"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
+<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../../style.css" type="text/css"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |NudelnMitTomatensosse.xml|  -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+<!-- 
+ standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+ :
+ + Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+   direkt innerhalb einer Instanz solcher Typen erscheint
+ :
+ -->
+<rezepte>
+	<rezept>
+		<titel>Nudeln mit Tomatensosse</titel>
+		<untertitel>Studenten Art</untertitel>
+		<datum>22.09.2006</datum>
+		<test>
+			<bemerkung>
+			Ausreichend für 2 Erwachsene und 3 Kinder.
+			</bemerkung>
+			<bemerkung>
+			In der Regel bleibt ein Teil der Nudeln über.
+			Diese können dann z.B. durch Braten verwertet werden.
+			Dabei kann dann auch gleich die andere Hälfte vom Tomatenmark
+			vernichtet werden.
+			</bemerkung>
+		</test>
+		<produkte>
+			<produkt beschreibung="1 Packung Preiswerte Spaghetti (500g)"
+					 ean="8000255111997"
+					 preis="0,87 €"
+			         hersteller="Marktkauf Eigenmarke Gut und Billig"/>
+			<produkt beschreibung="1 Büchse doppelt konzentriertes Tomatenmark (800g)"
+					 ean="8005111200105"
+					 preis="0,99 €"
+					 hersteller="No Name"/>
+			<produkt beschreibung="1 Fleischwurst (650g)"
+					 ean="4002123111287"
+					 hersteller="Marktkauf Eigenmarke Gut und Billig"/>
+			<produkt beschreibung="1 Packung Speisesalz "/>
+			<produkt beschreibung="1 Packung Spaghetti Gewürz"/>
+			<produkt beschreibung="1 grosse Gemüsezwiebel"/>
+			<produkt beschreibung="1 Tüte geriebenen Käse"
+					 ean="4012965430514"
+					 preis="0,99 €"
+					 hersteller="Marktkauf Eigenmarke Gut und Billig"/>
+		</produkte>
+		<zutaten>
+			<zutat name="Fleischwurst"
+				   menge="325"
+				   einheit="g"
+				   code="fleischwurst"/> 
+			<zutat name="Spaghetti"
+				   menge="500" 
+				   einheit="g"
+				   code="nudeln"/>
+			<zutat name="Gemüsezwiebel" 
+					menge="1" 
+					code="zwiebel"/>
+			<zutat name="Tomatenmark" 
+					menge="6" 
+					einheit="reichlich gehäufte Esslöffel"
+					code="tomatenmark"/>		
+			<zutat name="Geriebener Käse" 
+					menge="1"
+					einheit="Tüte"
+					code="reibekaese"/>	
+			<zutat name="Salz" 
+					menge="1"
+					einheit="Priese"
+					code="salz"/>		
+			<zutat name="Spaghetti Gewürz" 
+					menge="nach Bedarf" 
+					code="wuerze"/>	
+			<zutat name="Sonnenblumenöl"
+				   menge="ca. 3"
+				   einheit="Eßlöffel"
+				   code="oel"/>															   
+		</zutaten>
+		<beilagen>
+			<beilage>
+			Als Nachtisch eignet sich jegliches Kompott.
+			</beilage>
+		</beilagen>
+		<zubereitung>
+			<aktion>
+			Eine Pfanne mit ein wenig <zutatref code="oel" >Öl</zutatref>
+			erhitzen (E-Herd Stufe III).
+			</aktion>
+			<aktion>
+			In der Zwischenzeit die <zutatref code="fleischwurst">Fleischwurst
+			</zutatref>in kleine Stifte oder Würfel schneiden. Und die 
+			<zutatref code="zwiebel">Zwiebel</zutatref> in kleine Würfel 
+			schneiden. 
+			</aktion> 
+			<aktion>
+			Die Fleischwurst in die Pfanne geben und braten bis sie eine
+			gold braune Färbung annimmt.
+			</aktion>
+			<aktion>
+			Wenn die Wurst gold braun ist wird die gewürfelte Zwiebel zugegeben.
+			</aktion>
+			<aktion>
+			Ist nun auch die Zwiebel noch gold braun, dann geben wir ca. 200 ml 
+			Wasser zu und löschen die Mischung ab.
+			</aktion>
+			<aktion>
+			Jetzt etwa 6 Eßlöffel Tomatenmark zugeben, alles schön verrühren,
+			das restliche Wasser (ca. 400 ml) zugeben und kurz aufkochen lassen. 
+			</aktion>
+			<aktion>
+			Dann auf Stufe 1 die Tomatensosse warm halten.
+			</aktion>
+			<aktion>
+			Die Nudel zubereiten indem wir einen Topf 3/4 mit Wasser füllen,
+			eine Prise Salz zugeben und die Nudel hineinlegen. E-Herd auf Stufe
+			III.
+			</aktion>
+			<aktion>
+			Die Nudeln auf Stufe II weiter kochen bis sie gar sind.
+			Nudeln sind gar, wenn man eine Nudel herausnehmen, 
+			sie gegen den Herd werfen kann und diese nicht dann nicht vom Herd
+			abfällt.
+			</aktion>
+			<aktion>
+			Nudeln abschrecken. Dazu wird der Topf vom Herd genommen und das
+			Wasser abgegossen (dekantieren indem man den Deckel etwas verschiebt).
+			Anschliessend Topf und Nudel mit kaltem Wasser auffüllen und wieder
+			abgiessen. Vorgang solange wiederholen bis keine mehligfarbige Brühe 
+			mehr abläuft - in der Regel sollte 1 mal reichen.
+			</aktion>
+			
+		</zubereitung>
+		<tipps>
+			<tipp>
+				Durch Zugabe von Instant Suppenpulver (Gemüsebrühe) erhalten die
+				Nudeln beim Kochen einen würzigeren Geschmack und kleben 
+				nach dem Abschrecken nicht so.
+			</tipp>
+			<tipp>
+				Sollten die Nudel zu stark kleben, kann man nach dem Abschrecken
+				etwas Butter hinzugeben. Dadurch wird das weitere Kleben 
+				verhindert.
+			</tipp>
+			<tipp>
+				Beim Abschrecken bitte gut mit kalten Wasser durchspülen - es 
+				hilft nichts nur in den Topf zu schauen (egal wie sie aussehen
+				;-))
+			</tipp>
+		</tipps>
+		<quelle modifiziert="modifiziert" name="der Studenten WG"/>
+	</rezept>
+</rezepte>

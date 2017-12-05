@@ -1,0 +1,88 @@
+<?thomas-michel document-status="draft" version="1.2"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
+<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../../style.css" type="text/css"?>
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |EinfacheKekse.xml|  -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+<!-- 
+ standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+ :
+ + Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+   direkt innerhalb einer Instanz solcher Typen erscheint
+ :
+ -->
+<rezepte>
+	<rezept>
+		<titel>Einfache Kekse</titel>
+		<datum>23.12.2008</datum>
+		<test>
+			<bemerkung>
+			Geht schnell - sind aber recht hart
+			</bemerkung>
+		</test>
+		<produkte>
+			<produkt beschreibung="1 Packung Butter"
+					 haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung Zucker"
+					 haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung Mehl z.B. Typ 405"
+                     haendler="Marktkauf">
+            </produkt>
+            <produkt beschreibung="2 Eier"
+                     haendler="Marktkauf">
+            </produkt>
+            <produkt beschreibung="2 Packungungen Vanillezucker z.B. Vanillin"
+                     haendler="Marktkauf">
+            </produkt>
+		</produkte>
+		<zutaten>
+			<zutat name="Zucker"
+				   menge="250"
+				   einheit="g"
+				   code="zucker"/> 
+			<zutat name="Butter"
+				   menge="250" 
+				   einheit="g"
+				   code="butter"/>
+			<zutat name="Mehl" 
+					menge="500" 
+					einheit="g"
+					code="mehl"/>
+			<zutat name="Eier" 
+                    menge="2" 
+                    code="eier"/>
+            <zutat name="Vanillezucker" 
+                    menge="2" 
+                    einheit="Pck."
+                    code="vanillezucker"/>
+            		
+		</zutaten>
+		<zubereitung>
+			<aktion>Alle Zutaten vermengen und zu einem Teig verkneten.
+			</aktion>		
+			<aktion>Den Teig ausrollen</aktion>
+			<aktion>Kekse ausstechen und auf gefettetes Blech legen</aktion>
+			<aktion>10 Minuten backen</aktion>
+		</zubereitung>
+		<quelle name="irgendeinem Internetforum - einer von dutzenden Hinweisen zu Keksteig"/>
+	</rezept>
+</rezepte>

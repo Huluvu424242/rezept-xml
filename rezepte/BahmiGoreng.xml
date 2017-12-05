@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?thomas-michel document-status="draft" version="1.2"?>
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE rezept SYSTEM "../../rezepte.dtd">
-<?xml-stylesheet href="../../style.xsl" type="text/xsl"?>
-<?xml-stylesheet href="../../style.css" type="text/css"?>
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+<?thomas-michel document-status="draft" version="2.0"?>
+
 <!-- $Id$ -->
 <!-- =================================================== -->
 <!-- |BahmiGoreng.xml   |  -  TODO description         | -->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?thomas-michel document-status="draft" version="1.2"?>
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+<?thomas-michel document-status="draft" version="2.0"?>
+
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |NudelnMitTomatensosse.xml|  -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+<!-- 
+ standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+ :
+ + Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+   direkt innerhalb einer Instanz solcher Typen erscheint
+ :
+ -->
+<rezepte>
+	<rezept>
+		<titel>Schorgurken</titel>
+		<datum>04.01.2007</datum>
+		<ungetestet/>
+		<zutaten>
+			<zutat name="Gurken"
+				   menge="2"
+				   einheit="Stück"
+				   code="gurke"/> 
+			<zutat name="Tomaten"
+				   menge="8" 
+				   einheit="Stück"
+				   code="tomate"/>
+			<zutat name="Kartoffeln" 
+					menge="20" 
+					einheit="Stück"
+					code="kartoffel"/>
+			<zutat name="Gemüsezwiebel" 
+					menge="1" 
+					code="zwiebel"/>		
+			<zutat name="Öl" 
+					menge="1"
+					einheit="Schuss"
+					code="oel"/>	
+			<zutat name="Thymian" 
+					menge="1"
+					einheit="Priese"
+					code="thymian"/>		
+			<zutat name="Buletten" 
+					menge="5" 
+					einheit="Stück"
+					code="buletten"/>	
+		</zutaten>
+		<zubereitung>
+			<aktion>
+:			</aktion>		
+		</zubereitung>
+		<!-- quelle modifiziert="modifiziert" name="der Studenten WG"/-->
+	</rezept>
+</rezepte>

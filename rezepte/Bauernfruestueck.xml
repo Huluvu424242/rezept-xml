@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?thomas-michel document-status="draft" version="1.2"?>
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+<?thomas-michel document-status="draft" version="2.0"?>
+
+	<!-- $Id$ -->
+	<!-- =================================================== -->
+	<!-- |Bauernfrüstück.xml|  -  TODO description  | -->
+	<!--                                                     -->
+	<!-- begin            : | 21.09.2006|                  | -->
+	<!-- copyright        : | (C) 2006 by tmichel          | -->
+	<!-- email            : |development@thomas-michel.info| -->
+	<!-- =================================================== -->
+	<!--
+		******************************************************************************
+		* * * This document is a free paper; you can redistribute it and/or
+		modify * * it under the terms of the GNU Free Documentation License as
+		published * * by the Free Software Foundation; either version 1.2 of
+		the License, or * * (at your option) any later version. * * *
+		******************************************************************************
+	-->
+	<!--
+		standalone="no" gefordert nach XML in der Praxis S.400 (ISBN
+		3-8273-1636-7) bei : + Elementtypen, deren Inhalt weitere Elemente
+		enthält, falls Leerraum (WhiteSpace) direkt innerhalb einer Instanz
+		solcher Typen erscheint :
+	-->
+<rezepte>
+	<rezept>
+		<titel>Bauernfrüstück</titel>
+		<datum>17.08.2009</datum>
+		<ungetestet />
+		<zutaten>
+			<zutat name="Kartoffeln" menge="750" einheit="g" code="kartoffel" />
+			<zutat name="durchwachsener Speck" menge="80" einheit="g" code="speck" />
+			<zutat name="Eier" menge="3" einheit="Stück" code="eier" />
+			<zutat name="Milch" menge="3" einheit="EL" code="milch" />
+			<zutat name="Schinkenwürfel" menge="125" einheit="g" code="schinken" />
+			<zutat name="Tomaten" menge="2" einheit="Stück" code="tomaten" />
+			<zutat name="Schnittlauch" code="schnittlauch" />
+			<zutat name="Salz" code="salz" />
+		</zutaten>
+		<zubereitung>
+			<aktion>Kartoffeln kochen und kalt werden lassen</aktion>
+			<aktion>Kartoffeln in Scheiben schneiden, Speck klein würfeln
+			</aktion>
+			<aktion>Speck in der Pfanne anbraten, Kartoffeln dazugeben, salzen
+				und hellbraun rösten</aktion>
+			<aktion>Eier, Milch und Salz verquirlen und mit den Schinkenwürfeln
+				vermischen</aktion>
+			<aktion>Tomaten abziehen und in die Eiermilch geben</aktion>
+			<aktion>Die gesamte Milch-Mischung über die Kartoffeln geben und
+				braten bis es fest wird.</aktion>
+			<aktion>Abschliessend mit Schnittlauch verfeinern und servieren
+			</aktion>
+
+		</zubereitung>
+		<quelle
+			name="http://www.kochbar.de/rezept/anzeigen/druck/id/86049/personen/3" />
+		<!-- modifiziert="modifiziert" -->
+	</rezept>
+</rezepte>

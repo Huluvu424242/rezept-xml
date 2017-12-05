@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?thomas-michel document-status="draft" version="1.2"?>
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+<?thomas-michel document-status="draft" version="2.0"?>
+
+	<!-- $Id$ -->
+	<!-- =================================================== -->
+	<!-- |KomarKekse.xml|  -  TODO description  | -->
+	<!--                                                     -->
+	<!-- begin            : | 21.09.2006|                  | -->
+	<!-- copyright        : | (C) 2006 by tmichel          | -->
+	<!-- email            : |development@thomas-michel.info| -->
+	<!-- =================================================== -->
+	<!--
+		******************************************************************************
+		* * * This document is a free paper; you can redistribute it and/or
+		modify * * it under the terms of the GNU Free Documentation License as
+		published * * by the Free Software Foundation; either version 1.2 of
+		the License, or * * (at your option) any later version. * * *
+		******************************************************************************
+	-->
+	<!--
+		standalone="no" gefordert nach XML in der Praxis S.400 (ISBN
+		3-8273-1636-7) bei : + Elementtypen, deren Inhalt weitere Elemente
+		enthält, falls Leerraum (WhiteSpace) direkt innerhalb einer Instanz
+		solcher Typen erscheint :
+	-->
+<rezepte>
+	<rezept>
+		<titel>Sachertorte</titel>
+		<datum>18.01.2009</datum>
+		<untestetd />
+		<zutaten>
+			<zutat name="weiche Butter" menge="150" einheit="g" code="butter" />
+			<zutat name="Puderzucker" menge="150" einheit="g" code="puderzucker" />
+			<zutat name="Vanillezucker" menge="1" einheit="EL" code="vanillinzucker" />
+			<zutat name="Mehl" menge="150" einheit="g" code="mehl" />
+			<zutat name="Backpulver" menge="1" einheit="TL" code="backpulver" />
+			<zutat name="Zucker" menge="30" einheit="g" code="zucker" />
+			<zutat name="Eigelb" menge="7" einheit="Stück" code="eigelb" />
+			<zutat name="Eiweiß" menge="7" code="eiweiss" />
+			<zutat name="Blockschokolade" menge="150" einheit="g" code="blockschoko" />
+		</zutaten>
+		<zubereitung>
+			<aktion>Ofen auf 170 Grad vorheizen, Sprinform (26 cm) mit
+				Backpapier auslegen.
+			</aktion>
+			<aktion>Butter mit Puder- und Vanillezucker schaumig rühren,
+				nach und nach
+				Eigelb und die lauwarm geschmolzene Schokolade
+				unterrühren.
+			</aktion>
+			<aktion>
+				Eiweiß steif schlagen, den Zucker löffelweise zugeben und
+				sehr fest
+				aufschlagen.
+			</aktion>
+			<aktion>
+				Eischnee auf die Schaummasse füllen. Das mit Backpulver
+				vermischte Mehl
+				darübersieben, alles
+				leicht und locker vermischen.
+			</aktion>
+			<aktion>Teig in die Form füllen, glattstreichen.</aktion>
+			<aktion>
+				Torte eine bis ein und eine viertel Stunde backen, die ersten
+				12 Minuten
+				läßt man
+				die Backofentüre einen fingerbreiten Spalt offen,
+				damit die Masse
+				aufgehen kann,
+				bevor sich eine Kruste bildet.
+			</aktion>
+			<aktion>
+				Torte aus der Form lösen, bis zum nächsten Tag auf Gitter
+				auskühlen
+				lassen.
+			</aktion>
+		</zubereitung>
+		<quelle
+			name="nach einem Kochbuch - weiss nicht mehr welches" />
+	</rezept>
+</rezepte>

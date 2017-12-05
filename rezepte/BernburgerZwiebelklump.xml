@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?thomas-michel document-status="draft" version="1.2"?>
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+<?thomas-michel document-status="draft" version="2.0"?>
+
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |BernburgerZwiebelklump.xml|  -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+	******************************************************************************
+	*                                                                            *
+	*   This document is a free paper; you can redistribute it and/or modify     *
+	*   it under the terms of the GNU Free Documentation License as published    *
+	*   by the Free Software Foundation; either version 1.2 of the License, or   *
+	*   (at your option) any later version.                                      *
+	*                                                                            *
+	******************************************************************************
+-->
+<!-- 
+	standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+	:
+	+ Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+	direkt innerhalb einer Instanz solcher Typen erscheint
+	:
+-->
+<rezepte>
+	<rezept>
+		<titel>Bernburger Zwiebelklump</titel>
+		<datum>07.09.2008</datum>
+		<test>
+			<bemerkung>
+				Eines meiner Lieblingsessen aus meiner Kindheit.
+			</bemerkung>
+		</test>
+		<zutaten>
+			<zutat name="Hammelfleisch" menge="500" einheit="g"
+				code="fleisch" />
+			<zutat name="Zwiebeln, grbob gehackt" menge="3 große"
+				code="zwiebeln" />
+			<zutat name="Knoblauchzehen, fein gehackt" menge="2"
+				code="knoblauch" />
+			<zutat name="Salz und Pfeffer" code="salz" />
+			<zutat name="Kümmel" menge="1" einheit="Teelöffel"
+				code="kuemmel" />
+			<zutat name="Kartoffeln" menge="750" einheit="g"
+				code="kartoffeln" />
+			<zutat name="Speisestärke" menge="1" einheit="Esslöffel"
+				code="staerke" />
+			<zutat name="Eier" menge="2" />
+			<zutat name="geröstete Weißbrotwürfel" menge="2"
+				einheit="Esslöffel" />
+		</zutaten>
+		<zubereitung>
+			<aktion>
+				Das Hammelfleisch in mundgerechte Stücke schneiden und
+				mit den Zwiebeln, Knoblauch, Salz, Pfeffer und Kümmel in
+				2 Liter Wasser zugedeckt 1 Stunde kochen.
+			</aktion>
+			<aktion>
+				Inzwischen die Kartoffeln schälen, waschen und grob
+				reiben. In ein Küchentuch wickeln und den Saft gründlich
+				auspressen.
+			</aktion>
+			<aktion>
+				Die ausgepressten Kartoffeln sofort in eine Schüssel
+				geben und mit der Speisestärke, den Eiern und etwas Salz
+				verrühren.
+			</aktion>
+			<aktion>
+				Aus der Kartoffelmasse mit nassen Händen kleine Klöße
+				formen. In der Mitte jeweils kleine Weißbrotwürfel
+				drücken.
+			</aktion>
+			<aktion>
+				Das Fleisch nach Ende der Garzeit aus der Brühe heben
+				und warm stellen. Die Klöße in der Brühe gar ziehen
+				lassen.
+			</aktion>
+			<aktion>
+				Das Fleisch wieder in die Brühe einlegen und noch einmal
+				erhitzen.
+			</aktion>
+		</zubereitung>
+		<quelle modifiziert="modifiziert"
+			name="Mairose13 im Forum http://www.chefkoch.de/forum/2,1,192997/Bernburger-Zwiebelklump.html" />
+
+		<tipps>
+			<tipp>Sehr heiß servieren.</tipp>
+		</tipps>
+	</rezept>
+</rezepte>

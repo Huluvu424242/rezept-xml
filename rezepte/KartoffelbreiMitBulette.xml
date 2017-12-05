@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?thomas-michel document-status="draft" version="1.2"?>
+<!DOCTYPE rezepte SYSTEM "src/rezepte.dtd">
+<?xml-stylesheet type="text/xsl" href="src/style.xsl" ?>
+<?thomas-michel document-status="draft" version="2.0"?>
+
+<!-- $Id$ -->
+<!-- =================================================== -->
+<!-- |KartoffelbreiMitBulette.xml|  -  TODO description  | -->
+<!--                                                     -->
+<!-- begin            : | 21.09.2006|                  | -->
+<!-- copyright        : | (C) 2006 by tmichel          | -->
+<!-- email            : |development@thomas-michel.info| -->
+<!-- =================================================== -->
+<!--
+ ******************************************************************************
+ *                                                                            *
+ *   This document is a free paper; you can redistribute it and/or modify     *
+ *   it under the terms of the GNU Free Documentation License as published    *
+ *   by the Free Software Foundation; either version 1.2 of the License, or   *
+ *   (at your option) any later version.                                      *
+ *                                                                            *
+ ******************************************************************************
+ -->
+<!-- 
+ standalone="no" gefordert nach XML in der Praxis S.400 (ISBN 3-8273-1636-7) bei
+ :
+ + Elementtypen, deren Inhalt weitere Elemente enthält, falls Leerraum (WhiteSpace)
+   direkt innerhalb einer Instanz solcher Typen erscheint
+ :
+ -->
+<rezepte>
+	<rezept>
+		<titel>Kartoffelbrei mit Bulette</titel>
+		<datum>09.06.2007</datum>
+		<test>
+			<bemerkung>
+			Ein Gericht wenns mal schnell gehen soll - schmeckt ganz gut.
+			</bemerkung>
+		</test>
+		<produkte>
+			<produkt beschreibung="1 Packung Kartoffelpüree"
+					 haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Glas Zigeunersosse"
+					 haendler="Marktkauf">
+			</produkt>
+			<produkt beschreibung="1 Packung Frikadellen"
+					 haendler="Marktkauf">
+			</produkt>
+		</produkte>
+		<zutaten>
+			<zutat name="Milch"
+				   menge="1/2"
+				   einheit="Liter"
+				   code="milch"/> 
+			<zutat name="Rama"
+				   menge="1" 
+				   einheit="EL"
+				   code="butter"/>
+			<zutat name="Kartoffelpüree" 
+					menge="2" 
+					einheit="Beutel"
+					code="pueree"/>
+			<zutat name="Wasser" 
+					menge="1"
+					einheit="Liter"
+					code="wasser"/>	
+			<zutat name="Salz" 
+					menge="1"
+					einheit="Priese"
+					code="salz"/>		
+			<zutat name="Buletten" 
+					menge="4" 
+					einheit="Stück"
+					code="buletten"/>	
+			<zutat name="Zigeunersosse" 
+					menge="500" 
+					einheit="ml"
+					code="sosse"/>						
+		</zutaten>
+		<zubereitung>
+			<aktion>Die fertige Zigeunersosse in einen kleinen Topf geben
+:			</aktion>		
+			<aktion>Die Buletten zur Sosse geben und den Topf auf Stufe 1 (E-Herd) 
+			ca. 30 Minuten erwärmen, so dass die Buletten auch innen warm sind.</aktion>
+			<aktion>Das Liter Wasser mit einer Prise Salz in einen Topf geben und zum kochen bringen.
+			Beim E-Herd Stufe 3</aktion>
+			<aktion>Wenn das Wasser kocht, vom Herd nehmen, Milch, Butter und 2 Beutel
+			Kartoffelpüree einrühren und kurz durchrühren bis alles glatt ist</aktion>
+			<aktion>servieren</aktion>
+		</zubereitung>
+		<!-- quelle modifiziert="modifiziert" name="der Studenten WG"/-->
+	</rezept>
+</rezepte>

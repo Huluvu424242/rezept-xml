@@ -16,7 +16,7 @@ Chrome hat lokal zwar Probleme aber remote funktioniert es :)
 
 Beispiel
 --------
-Hier befinden sich einige [Beispielrezepte](http://funthomas424242.github.io/rezept-xml/rezepte/index.html)
+Hier befinden sich einige [Beispielrezepte](http://huluvu424242.github.io/rezept-xml/rezepte/index.html)
 
 Projektstatus
 -------------
@@ -30,7 +30,7 @@ interessiert bzw. Änderungen wünscht oder mir mal total langweilig ist ;)
 Also **Pull Requests** sind herzlich willkommen aber von selbst werde ich keine
 großen Änderungen mehr vornehmen. Dafür versuche ich eine ähnliche Lösung 
 in einem zukünftigen Projekt 
-[rezept-dsl](https://github.com/FunThomas424242/rezept-dsl) auf der Basis 
+[rezept-dsl](https://github.com/huluvu424242/rezept-dsl) auf der Basis 
 von **Domain Spezifischen Sprachen** zu realisieren. 
 
 Lizenz
